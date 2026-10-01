@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class playerShooting : MonoBehaviour
 {
@@ -25,17 +26,14 @@ public class playerShooting : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Shoot() 
     {
-        // Handles shooting input and cooldown
-        fireCooldown -= Time.deltaTime;
-        if (Input.GetKey(KeyCode.Space) && fireCooldown <= 0f)
+        if (fireCooldown <= 0f)
         {
             Vector2 playerPosition = GetComponent<Rigidbody2D>().position;
             Vector2 projectileOffset = playerPosition + new Vector2(0, yOffset);
             audioSource.PlayOneShot(shootSound);
-            if (doubleDamageActive && tripleShotActive) 
+            if (doubleDamageActive && tripleShotActive)
             {
                 Instantiate(doubleDamageProjectile, projectileOffset + new Vector2(-0.2f, 0), Quaternion.Euler(0, 0, 10));
                 Instantiate(doubleDamageProjectile, projectileOffset, Quaternion.Euler(0, 0, 0));
@@ -57,6 +55,14 @@ public class playerShooting : MonoBehaviour
             }
             fireCooldown = 1 / fireDelay;
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Handles shooting input and cooldown
+        fireCooldown -= Time.deltaTime;
+        
         // Handles double fire power-up duration
         if (doubleFireActive)
         {
