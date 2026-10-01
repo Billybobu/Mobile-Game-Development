@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1d683c4c5f6f8bb44801645fef63ec31
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - droneLeft: {fileID: 4245203129718416184, guid: 2c73d83769219694db6584776a052fc5, type: 3}
+  - droneRight: {fileID: 4245203129718416184, guid: 32af40b23a5d7054cbafd16e32ae5f8e, type: 3}
+  - fighter: {fileID: 2420761023621091185, guid: ed23bba85dc044c4c822ce334dd4bfa5, type: 3}
+  - speederStraight: {fileID: 6086955581420393317, guid: 99106352467fab3468bf46be8c3f5056, type: 3}
+  - speederSin: {fileID: 6086955581420393317, guid: 702e3ea7a3f50b04199152e140b3b295, type: 3}
+  - bomberLeft: {fileID: 6574850908495121473, guid: 0edf411d3f492ab4d9ae8ad64aca3d85, type: 3}
+  - bomberRight: {fileID: 6574850908495121473, guid: 83c40213994690a4891a32c0792f20ac, type: 3}
+  - spaceStation: {fileID: 2303157961230566738, guid: e2d35092558b4154cbf24c366720351e, type: 3}
+  - sniperRight: {fileID: 1231582025385390812, guid: 37aa4fa63b3411642bf3460df95143ad, type: 3}
+  - sniperLeft: {fileID: 1231582025385390812, guid: 1f07b7c79d756cf41882dcea10506f60, type: 3}
+  - wasp: {fileID: 8747633572173902931, guid: b79f75a67e3b75f4cbb7ba23d8f06c39, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

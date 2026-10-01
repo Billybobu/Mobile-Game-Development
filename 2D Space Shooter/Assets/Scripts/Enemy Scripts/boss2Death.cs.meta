@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1126d9c522b58b54687ff0f6adb0ec84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deathExplosion: {fileID: 6690274835675795104, guid: 85eb19ce576f7e24e99cb8f8bedf7954, type: 3}
+  - audioSource: {instanceID: 0}
+  - explosionSound: {fileID: 8300000, guid: 17442d8eef94a484281f362ad125817c, type: 3}
+  - enemyScoreAllocator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

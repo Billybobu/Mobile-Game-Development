@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0b8fa637f8e5ddd47b85939cae1fd171
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deathExplosion: {fileID: 6690274835675795104, guid: 85eb19ce576f7e24e99cb8f8bedf7954, type: 3}
+  - audioSource: {instanceID: 0}
+  - explosionSound: {fileID: 8300000, guid: 17442d8eef94a484281f362ad125817c, type: 3}
+  - powerUpHealth: {fileID: 9014671359881125319, guid: 204a18b697a1e2147a530ad7d2b65658, type: 3}
+  - powerUpFireRate: {fileID: 9014671359881125319, guid: 7b7836cff05483e4a9119103e563c173, type: 3}
+  - powerUpDamage: {fileID: 9014671359881125319, guid: efe896234741db44c9965cdd61a6364b, type: 3}
+  - powerUpTripleShot: {fileID: 9014671359881125319, guid: 1c832a66c69e8de408f62ab6b504be8e, type: 3}
+  - enemyScoreAllocator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
