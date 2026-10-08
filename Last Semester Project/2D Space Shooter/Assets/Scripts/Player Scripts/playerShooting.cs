@@ -60,6 +60,7 @@ public class playerShooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Shoot();
         // Handles shooting input and cooldown
         fireCooldown -= Time.deltaTime;
         
