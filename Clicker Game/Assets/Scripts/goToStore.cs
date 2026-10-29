@@ -14,4 +14,10 @@ public class goToStore : MonoBehaviour
     {
         
     }
+
+    public void OnButtonClick()
+    {
+        PlayerPrefs.SetInt("score", mainButton.score);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("StoreScene");
+    }
 }
