@@ -19,6 +19,7 @@ public class goToClicker : MonoBehaviour
     {
         PlayerPrefs.SetInt("score", mainButton.score);
         PlayerPrefs.SetInt("autoClickerAmount", mainButton.autoClickerAmount);
+        PlayerPrefs.SetFloat("autoClickerTimer", mainButton.autoClickerTimer);
         UnityEngine.SceneManagement.SceneManager.LoadScene("ClickerScene");
     }
 }
