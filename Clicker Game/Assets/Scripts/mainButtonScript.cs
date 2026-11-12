@@ -7,6 +7,7 @@ public class mainButtonScript : MonoBehaviour
     public int autoClickerAmount = 0;
     public float autoClickerInterval = 10.0f; // Interval in seconds for auto-clicker
     public float autoClickerTimer = 0.0f;
+    public int scoreMultiplier = 1; // Multiplier for score increment
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,13 +24,13 @@ public class mainButtonScript : MonoBehaviour
         if (autoClickerTimer >= autoClickerInterval)
         {
             autoClickerTimer = 0.0f;
-            score += autoClickerAmount;
+            score += autoClickerAmount * scoreMultiplier;
         }
     }
 
     public void OnButtonClick()
     {
-        score += scoreIncrement;
+        score += scoreIncrement * scoreMultiplier;
         Debug.Log("Score: " + score);
     }
 }
